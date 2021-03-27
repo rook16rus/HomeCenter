@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex-2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav container">
+            <div class="nav-topbar">
+                <a href="#" class="logo">
+                    <img src="img/logo.png" width="198" height="28" alt="Логотип">
+                    <span class="visually-hidden">На главную</span>
+                </a>
+                <form action="#" method="post" class="search-form">
+                    <label for="search_field" class="visually-hidden">Введите текст в поисковую строку</label>
+                    <input type="text" id="search_field" placeholder="Поиск по сайту">
+                    <button type="button" class="button">Найти</button>
+                </form>
+                <ul class="site-authorization-list">
+                    <li class="site-authorization-item"><a href="#">Войти</a></li>
+                    <li class="site-authorization-item"><a href="#">Регистрация</a></li>
+                </ul>
+                <ul class="site-navigation-list">
+                    <li class="site-navigation-item"><a href="#">Профиль</a></li>
+                    <li class="site-navigation-item"><a href="#">Корзина</a></li>
+                </ul>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#" class="menu-link">Стройматериалы</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Сад, огород</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Товары для дома</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Обои, декор, краски</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Сантехника</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Освещение</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Инструменты, техника</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Плитка</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="visually-hidden">Главная страница компании "Хоуцентр"</h1>
+        <section class="promo container">
+            <img src="img/bg-photo.jpg" width="1110" height="500" alt="Кухня">
+            <div class="promo-block">
+                <h2 class="section-title promo-title">Скидка до 30% на кухни под заказ</h2>
+                <p>Акция действует только в ноябре</p>
+                <a href="#" class="button">Подробнее</a>
+            </div>
+        </section>
+        <section class="works container">
+            <div class="works-wrapper">
+                <div class="works-text-column">
+                    <h2 class="section-title works-title">Готовые решения для вашего дома</h2>
+                    <p>Идеи интерьера от наших дизайнеров. Множество проектов, которые вы сможете полностью воплотить  в жизнь.</p>
+                    <a href="#" class="button">Смотреть проекты</a>
+                </div>
+                <div class="works-img-column">
+                    <p class="visually-hidden" id="works-desc">Фото интерьера</p>
+                    <ul class="works-list">
+                        <li class="works-item"><img src="img/photo-1.jpg" width="285" height="151" alt="" aria-labelledby="works-desc"></li>
+                        <li class="works-item"><img src="img/photo-2.jpg" width="285" height="151" alt="" aria-labelledby="works-desc"></li>
+                        <li class="works-item"><img src="img/photo-3.jpg" width="350" height="332" alt="" aria-labelledby="works-desc"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
